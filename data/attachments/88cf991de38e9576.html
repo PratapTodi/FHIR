@@ -1,0 +1,348 @@
+<div>Status code 200 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;resourceType&quot;: &quot;Bundle&quot;,
+    &quot;id&quot;: &quot;e6e6e77c-496d-4cb7-96f5-97ebff907f38&quot;,
+    &quot;meta&quot;: {
+        &quot;lastUpdated&quot;: &quot;2023-01-25T04:58:45.997+00:00&quot;
+    },
+    &quot;type&quot;: &quot;searchset&quot;,
+    &quot;total&quot;: 399,
+    &quot;link&quot;: [
+        {
+            &quot;relation&quot;: &quot;self&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Observation?date=ge2022-07-14&amp;patient=cradmo6.59662&amp;category=vital-signs&amp;_pageId=d2f43031-a2da-4a67-8619-0fcc0644b2c5&amp;_count=5&quot;
+        },
+        {
+            &quot;relation&quot;: &quot;next&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Observation?date=ge2022-07-14&amp;patient=cradmo6.59662&amp;category=vital-signs&amp;_pageId=b165a736-16be-48d0-b467-c6cfe224be22&amp;_count=5&quot;
+        }
+    ],
+    &quot;entry&quot;: [
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..HE-F79DD26C-2A3B-48D0-A41F-63A8F5EA5FE5&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/StructureDefinition/vitalsigns&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;vital-signs&quot;,
+                                &quot;display&quot;: &quot;Vital Signs&quot;
+                            }
+                        ],
+                        &quot;text&quot;: &quot;Vital Signs&quot;
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;8302-2&quot;,
+                            &quot;display&quot;: &quot;Body height&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-AEB5957C-5691-4F87-B285-74936BACBEDB&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2023-02-16T00:00:00+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-E6A94BD4-3FD4-477B-9D44-95458308CEDB&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;valueQuantity&quot;: {
+                    &quot;value&quot;: 62.0,
+                    &quot;unit&quot;: &quot;in&quot;,
+                    &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                }
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..WE-F79DD26C-2A3B-48D0-A41F-63A8F5EA5FE5&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/StructureDefinition/vitalsigns&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;vital-signs&quot;,
+                                &quot;display&quot;: &quot;Vital Signs&quot;
+                            }
+                        ],
+                        &quot;text&quot;: &quot;Vital Signs&quot;
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;29463-7&quot;,
+                            &quot;display&quot;: &quot;Body Weight&quot;
+                        }
+                    ],
+                    &quot;text&quot;: &quot;Body Weight&quot;
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-AEB5957C-5691-4F87-B285-74936BACBEDB&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2023-02-16T00:00:00+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-E6A94BD4-3FD4-477B-9D44-95458308CEDB&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;valueQuantity&quot;: {
+                    &quot;value&quot;: 197.0,
+                    &quot;unit&quot;: &quot;lbs&quot;,
+                    &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                }
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..BM-F79DD26C-2A3B-48D0-A41F-63A8F5EA5FE5&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/StructureDefinition/vitalsigns&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;vital-signs&quot;,
+                                &quot;display&quot;: &quot;Vital Signs&quot;
+                            }
+                        ],
+                        &quot;text&quot;: &quot;Vital Signs&quot;
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;39156-5&quot;,
+                            &quot;display&quot;: &quot;Body mass index (BMI) [Ratio]&quot;
+                        }
+                    ],
+                    &quot;text&quot;: &quot;BMI&quot;
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-AEB5957C-5691-4F87-B285-74936BACBEDB&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2023-02-16T00:00:00+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-E6A94BD4-3FD4-477B-9D44-95458308CEDB&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;valueQuantity&quot;: {
+                    &quot;value&quot;: 36.0,
+                    &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                }
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..BP-F79DD26C-2A3B-48D0-A41F-63A8F5EA5FE5&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/StructureDefinition/vitalsigns&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;vital-signs&quot;,
+                                &quot;display&quot;: &quot;Vital Signs&quot;
+                            }
+                        ],
+                        &quot;text&quot;: &quot;Vital Signs&quot;
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;85354-9&quot;,
+                            &quot;display&quot;: &quot;Blood pressure panel with all children optional&quot;
+                        }
+                    ],
+                    &quot;text&quot;: &quot;Blood pressure systolic &amp; diastolic&quot;
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-AEB5957C-5691-4F87-B285-74936BACBEDB&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2023-02-16T00:00:00+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-E6A94BD4-3FD4-477B-9D44-95458308CEDB&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;bodySite&quot;: {
+                    &quot;text&quot;: &quot;sitting&quot;
+                },
+                &quot;component&quot;: [
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8480-6&quot;,
+                                    &quot;display&quot;: &quot;Systolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 132.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    },
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8462-4&quot;,
+                                    &quot;display&quot;: &quot;Diastolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 72.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..HE-DEA8706E-88BB-4553-B2F4-247223A78D69&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/StructureDefinition/vitalsigns&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;vital-signs&quot;,
+                                &quot;display&quot;: &quot;Vital Signs&quot;
+                            }
+                        ],
+                        &quot;text&quot;: &quot;Vital Signs&quot;
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;8302-2&quot;,
+                            &quot;display&quot;: &quot;Body height&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-620E9F3D-BF6D-4E29-A42B-200C5948BAD4&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2023-03-05T00:00:00+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-AF669825-35A6-4518-982B-9987E35D1F29&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;valueQuantity&quot;: {
+                    &quot;value&quot;: 62.0,
+                    &quot;unit&quot;: &quot;in&quot;,
+                    &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                }
+            }
+        }
+    ]
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Transfer-Encoding: chunked</div>
+        <div>Server: nginx</div>
+        <div>X-Request-ID: PgNX8l6YbSn8ynie</div>
+        <div>Connection: keep-alive</div>
+        <div>Content-Encoding: gzip</div>
+        <div>Vary: Access-Control-Request-Headers</div>
+        <div>Last-Modified: Wed, 25 Jan 2023 04:58:45 GMT</div>
+        <div>Date: Wed, 25 Jan 2023 04:58:45 GMT</div>
+        <div>Content-Type: application/fhir+json;charset=UTF-8</div>
+        <div>X-Powered-By: HAPI FHIR 4.2.0 REST Server (FHIR Server; FHIR 4.0.1/R4)</div>
+</div>
+
+

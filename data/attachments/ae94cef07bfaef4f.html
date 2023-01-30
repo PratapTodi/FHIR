@@ -1,0 +1,526 @@
+<div>Status code 200 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;resourceType&quot;: &quot;Bundle&quot;,
+    &quot;id&quot;: &quot;9805ef9e-1485-4f90-a7dd-13bc66b72767&quot;,
+    &quot;meta&quot;: {
+        &quot;lastUpdated&quot;: &quot;2023-01-25T04:56:15.660+00:00&quot;
+    },
+    &quot;type&quot;: &quot;searchset&quot;,
+    &quot;total&quot;: 14,
+    &quot;link&quot;: [
+        {
+            &quot;relation&quot;: &quot;self&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Condition?_revinclude=Provenance%3Atarget&amp;patient=cradmo6.59662&amp;_pageId=88bac4f9-7182-4559-aada-e989ca087f95&amp;_count=5&quot;
+        },
+        {
+            &quot;relation&quot;: &quot;next&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Condition?_revinclude=Provenance%3Atarget&amp;patient=cradmo6.59662&amp;_pageId=2db9a9e7-aff1-40f2-b93a-ff14eb475b1f&amp;_count=5&quot;
+        }
+    ],
+    &quot;entry&quot;: [
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Condition&quot;,
+                &quot;id&quot;: &quot;59662..PB-6EEAA237-736B-4705-8C03-D3A177F59AB3&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition&quot;
+                    ]
+                },
+                &quot;clinicalStatus&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;,
+                            &quot;code&quot;: &quot;active&quot;,
+                            &quot;display&quot;: &quot;Active&quot;
+                        }
+                    ]
+                },
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;,
+                                &quot;code&quot;: &quot;problem-list-item&quot;,
+                                &quot;display&quot;: &quot;Problem List Item&quot;
+                            }
+                        ]
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10-cm&quot;,
+                            &quot;code&quot;: &quot;E66.01&quot;,
+                            &quot;display&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-6E321B3A-6E45-446C-A866-42A303BF6335&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;onsetPeriod&quot;: {
+                    &quot;start&quot;: &quot;2019-01-28T00:00:00+00:00&quot;
+                },
+                &quot;recorder&quot;: {
+                    &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                    &quot;type&quot;: &quot;Practitioner&quot;
+                },
+                &quot;note&quot;: [
+                    {
+                        &quot;text&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Condition&quot;,
+                &quot;id&quot;: &quot;59662..PB-76C23A4E-224A-4A1E-B9E6-04AC4E3C0B0E&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition&quot;
+                    ]
+                },
+                &quot;clinicalStatus&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;,
+                            &quot;code&quot;: &quot;active&quot;,
+                            &quot;display&quot;: &quot;Active&quot;
+                        }
+                    ]
+                },
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;,
+                                &quot;code&quot;: &quot;problem-list-item&quot;,
+                                &quot;display&quot;: &quot;Problem List Item&quot;
+                            }
+                        ]
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-9-cm&quot;,
+                            &quot;code&quot;: &quot;711.47&quot;,
+                            &quot;display&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-BAC67E76-5ABF-46BB-8285-4AE2866AC812&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;onsetPeriod&quot;: {
+                    &quot;start&quot;: &quot;2011-12-24T00:00:00+00:00&quot;
+                },
+                &quot;recorder&quot;: {
+                    &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                    &quot;type&quot;: &quot;Practitioner&quot;
+                },
+                &quot;note&quot;: [
+                    {
+                        &quot;text&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Condition&quot;,
+                &quot;id&quot;: &quot;59662..PB-0D537914-C883-4246-937D-1F7B2BA880D6&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition&quot;
+                    ]
+                },
+                &quot;clinicalStatus&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;,
+                            &quot;code&quot;: &quot;resolved&quot;,
+                            &quot;display&quot;: &quot;Resolved&quot;
+                        }
+                    ]
+                },
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;,
+                                &quot;code&quot;: &quot;problem-list-item&quot;,
+                                &quot;display&quot;: &quot;Problem List Item&quot;
+                            }
+                        ]
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10-cm&quot;,
+                            &quot;code&quot;: &quot;E11.9&quot;,
+                            &quot;display&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;onsetPeriod&quot;: {
+                    &quot;start&quot;: &quot;2012-11-14T00:00:00+00:00&quot;,
+                    &quot;end&quot;: &quot;2019-10-29T00:00:00+00:00&quot;
+                },
+                &quot;note&quot;: [
+                    {
+                        &quot;text&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Condition&quot;,
+                &quot;id&quot;: &quot;59662..PB-ACEAEB48-FBAE-4396-87BF-337CA5DAEEAD&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition&quot;
+                    ]
+                },
+                &quot;clinicalStatus&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;,
+                            &quot;code&quot;: &quot;active&quot;,
+                            &quot;display&quot;: &quot;Active&quot;
+                        }
+                    ]
+                },
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;,
+                                &quot;code&quot;: &quot;problem-list-item&quot;,
+                                &quot;display&quot;: &quot;Problem List Item&quot;
+                            }
+                        ]
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10-cm&quot;,
+                            &quot;code&quot;: &quot;E11.65&quot;,
+                            &quot;display&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;onsetPeriod&quot;: {
+                    &quot;start&quot;: &quot;2013-03-28T00:00:00+00:00&quot;
+                },
+                &quot;note&quot;: [
+                    {
+                        &quot;text&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Condition&quot;,
+                &quot;id&quot;: &quot;59662..PB-C36B5F94-C3D8-42CD-96D9-EA94D050D1AA&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition&quot;
+                    ]
+                },
+                &quot;clinicalStatus&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;,
+                            &quot;code&quot;: &quot;active&quot;,
+                            &quot;display&quot;: &quot;Active&quot;
+                        }
+                    ]
+                },
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;,
+                                &quot;code&quot;: &quot;problem-list-item&quot;,
+                                &quot;display&quot;: &quot;Problem List Item&quot;
+                            }
+                        ]
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10-cm&quot;,
+                            &quot;code&quot;: &quot;E11.9&quot;,
+                            &quot;display&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-6E321B3A-6E45-446C-A866-42A303BF6335&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;onsetPeriod&quot;: {
+                    &quot;start&quot;: &quot;2019-01-28T00:00:00+00:00&quot;
+                },
+                &quot;recorder&quot;: {
+                    &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                    &quot;type&quot;: &quot;Practitioner&quot;
+                },
+                &quot;note&quot;: [
+                    {
+                        &quot;text&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Provenance&quot;,
+                &quot;id&quot;: &quot;P-59662..PB-6EEAA237-736B-4705-8C03-D3A177F59AB3&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance&quot;
+                    ]
+                },
+                &quot;target&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Condition/59662..PB-6EEAA237-736B-4705-8C03-D3A177F59AB3&quot;,
+                        &quot;type&quot;: &quot;Condition&quot;
+                    }
+                ],
+                &quot;recorded&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                &quot;agent&quot;: [
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/provenance-participant-type&quot;,
+                                    &quot;code&quot;: &quot;author&quot;,
+                                    &quot;display&quot;: &quot;Author&quot;
+                                }
+                            ]
+                        },
+                        &quot;who&quot;: {
+                            &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                            &quot;type&quot;: &quot;Practitioner&quot;
+                        },
+                        &quot;onBehalfOf&quot;: {
+                            &quot;reference&quot;: &quot;Organization/cradmo6&quot;,
+                            &quot;type&quot;: &quot;Organization&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Provenance&quot;,
+                &quot;id&quot;: &quot;P-59662..PB-76C23A4E-224A-4A1E-B9E6-04AC4E3C0B0E&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance&quot;
+                    ]
+                },
+                &quot;target&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Condition/59662..PB-76C23A4E-224A-4A1E-B9E6-04AC4E3C0B0E&quot;,
+                        &quot;type&quot;: &quot;Condition&quot;
+                    }
+                ],
+                &quot;recorded&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                &quot;agent&quot;: [
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/provenance-participant-type&quot;,
+                                    &quot;code&quot;: &quot;author&quot;,
+                                    &quot;display&quot;: &quot;Author&quot;
+                                }
+                            ]
+                        },
+                        &quot;who&quot;: {
+                            &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                            &quot;type&quot;: &quot;Practitioner&quot;
+                        },
+                        &quot;onBehalfOf&quot;: {
+                            &quot;reference&quot;: &quot;Organization/cradmo6&quot;,
+                            &quot;type&quot;: &quot;Organization&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Provenance&quot;,
+                &quot;id&quot;: &quot;P-59662..PB-0D537914-C883-4246-937D-1F7B2BA880D6&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance&quot;
+                    ]
+                },
+                &quot;target&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Condition/59662..PB-0D537914-C883-4246-937D-1F7B2BA880D6&quot;,
+                        &quot;type&quot;: &quot;Condition&quot;
+                    }
+                ],
+                &quot;recorded&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                &quot;agent&quot;: [
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://hl7.org/fhir/us/core/CodeSystem/us-core-provenance-participant-type&quot;,
+                                    &quot;code&quot;: &quot;transmitter&quot;,
+                                    &quot;display&quot;: &quot;Transmitter&quot;
+                                }
+                            ]
+                        },
+                        &quot;who&quot;: {
+                            &quot;reference&quot;: &quot;Organization/cradmo6&quot;,
+                            &quot;type&quot;: &quot;Organization&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Provenance&quot;,
+                &quot;id&quot;: &quot;P-59662..PB-ACEAEB48-FBAE-4396-87BF-337CA5DAEEAD&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance&quot;
+                    ]
+                },
+                &quot;target&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Condition/59662..PB-ACEAEB48-FBAE-4396-87BF-337CA5DAEEAD&quot;,
+                        &quot;type&quot;: &quot;Condition&quot;
+                    }
+                ],
+                &quot;recorded&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                &quot;agent&quot;: [
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://hl7.org/fhir/us/core/CodeSystem/us-core-provenance-participant-type&quot;,
+                                    &quot;code&quot;: &quot;transmitter&quot;,
+                                    &quot;display&quot;: &quot;Transmitter&quot;
+                                }
+                            ]
+                        },
+                        &quot;who&quot;: {
+                            &quot;reference&quot;: &quot;Organization/cradmo6&quot;,
+                            &quot;type&quot;: &quot;Organization&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Provenance&quot;,
+                &quot;id&quot;: &quot;P-59662..PB-C36B5F94-C3D8-42CD-96D9-EA94D050D1AA&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance&quot;
+                    ]
+                },
+                &quot;target&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Condition/59662..PB-C36B5F94-C3D8-42CD-96D9-EA94D050D1AA&quot;,
+                        &quot;type&quot;: &quot;Condition&quot;
+                    }
+                ],
+                &quot;recorded&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                &quot;agent&quot;: [
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/provenance-participant-type&quot;,
+                                    &quot;code&quot;: &quot;author&quot;,
+                                    &quot;display&quot;: &quot;Author&quot;
+                                }
+                            ]
+                        },
+                        &quot;who&quot;: {
+                            &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                            &quot;type&quot;: &quot;Practitioner&quot;
+                        },
+                        &quot;onBehalfOf&quot;: {
+                            &quot;reference&quot;: &quot;Organization/cradmo6&quot;,
+                            &quot;type&quot;: &quot;Organization&quot;
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Transfer-Encoding: chunked</div>
+        <div>Server: nginx</div>
+        <div>X-Request-ID: XDeuzHD7IMRd0gjF</div>
+        <div>Connection: keep-alive</div>
+        <div>Content-Encoding: gzip</div>
+        <div>Vary: Access-Control-Request-Headers</div>
+        <div>Last-Modified: Wed, 25 Jan 2023 04:56:15 GMT</div>
+        <div>Date: Wed, 25 Jan 2023 04:56:15 GMT</div>
+        <div>Content-Type: application/fhir+json;charset=UTF-8</div>
+        <div>X-Powered-By: HAPI FHIR 4.2.0 REST Server (FHIR Server; FHIR 4.0.1/R4)</div>
+</div>
+
+

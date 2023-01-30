@@ -1,0 +1,94 @@
+<div>Status code 200 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;resourceType&quot;: &quot;Bundle&quot;,
+    &quot;id&quot;: &quot;954966be-4fca-418c-9173-ec47e919aa75&quot;,
+    &quot;meta&quot;: {
+        &quot;lastUpdated&quot;: &quot;2023-01-25T04:56:03.079+00:00&quot;
+    },
+    &quot;type&quot;: &quot;searchset&quot;,
+    &quot;total&quot;: 14,
+    &quot;link&quot;: [
+        {
+            &quot;relation&quot;: &quot;self&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Condition?patient=cradmo6.59662&amp;clinical-status=resolved&amp;_pageId=d36ffc7e-86b5-41e8-b526-ce34ead6e9fe&amp;_count=5&quot;
+        }
+    ],
+    &quot;entry&quot;: [
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Condition&quot;,
+                &quot;id&quot;: &quot;59662..PB-0D537914-C883-4246-937D-1F7B2BA880D6&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition&quot;
+                    ]
+                },
+                &quot;clinicalStatus&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;,
+                            &quot;code&quot;: &quot;resolved&quot;,
+                            &quot;display&quot;: &quot;Resolved&quot;
+                        }
+                    ]
+                },
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;,
+                                &quot;code&quot;: &quot;problem-list-item&quot;,
+                                &quot;display&quot;: &quot;Problem List Item&quot;
+                            }
+                        ]
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10-cm&quot;,
+                            &quot;code&quot;: &quot;E11.9&quot;,
+                            &quot;display&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;onsetPeriod&quot;: {
+                    &quot;start&quot;: &quot;2012-11-14T00:00:00+00:00&quot;,
+                    &quot;end&quot;: &quot;2019-10-29T00:00:00+00:00&quot;
+                },
+                &quot;note&quot;: [
+                    {
+                        &quot;text&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                    }
+                ]
+            }
+        }
+    ]
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Transfer-Encoding: chunked</div>
+        <div>Server: nginx</div>
+        <div>X-Request-ID: AQ8xyHWFShgdu4jb</div>
+        <div>Connection: keep-alive</div>
+        <div>Content-Encoding: gzip</div>
+        <div>Vary: Access-Control-Request-Headers</div>
+        <div>Last-Modified: Wed, 25 Jan 2023 04:56:03 GMT</div>
+        <div>Date: Wed, 25 Jan 2023 04:56:03 GMT</div>
+        <div>Content-Type: application/fhir+json;charset=UTF-8</div>
+        <div>X-Powered-By: HAPI FHIR 4.2.0 REST Server (FHIR Server; FHIR 4.0.1/R4)</div>
+</div>
+
+

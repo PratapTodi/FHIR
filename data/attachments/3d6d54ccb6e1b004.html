@@ -1,0 +1,144 @@
+<div>Status code 200 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;resourceType&quot;: &quot;Bundle&quot;,
+    &quot;id&quot;: &quot;99d52b56-dfb0-48af-841e-109389bddc8b&quot;,
+    &quot;meta&quot;: {
+        &quot;lastUpdated&quot;: &quot;2023-01-25T04:58:10.106+00:00&quot;
+    },
+    &quot;type&quot;: &quot;searchset&quot;,
+    &quot;total&quot;: 514,
+    &quot;link&quot;: [
+        {
+            &quot;relation&quot;: &quot;self&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/MedicationRequest?patient=cradmo6.59662&amp;_pageId=9159a139-4c36-42f7-b471-2b5f8bd751ea&amp;_count=2&quot;
+        },
+        {
+            &quot;relation&quot;: &quot;next&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/MedicationRequest?patient=cradmo6.59662&amp;_pageId=49f7d59f-78cf-485a-99bc-d20d25b16a14&amp;_count=2&quot;
+        }
+    ],
+    &quot;entry&quot;: [
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;MedicationRequest&quot;,
+                &quot;id&quot;: &quot;59662..ME-2C70F351-EF23-4CB5-8C15-76CEFFB4A19A&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;active&quot;,
+                &quot;intent&quot;: &quot;order&quot;,
+                &quot;medicationCodeableConcept&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/ndc&quot;,
+                            &quot;code&quot;: &quot;00002879959&quot;,
+                            &quot;display&quot;: &quot;Humalog KwikPen&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-BB0AECBD-7123-42FA-9744-8B2DC0388849&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;authoredOn&quot;: &quot;2017-02-07T00:00:00+00:00&quot;,
+                &quot;requester&quot;: {
+                    &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                    &quot;type&quot;: &quot;Practitioner&quot;
+                },
+                &quot;dosageInstruction&quot;: [
+                    {
+                        &quot;timing&quot;: {
+                            &quot;repeat&quot;: {
+                                &quot;boundsPeriod&quot;: {
+                                    &quot;start&quot;: &quot;2017-01-01T00:00:00+00:00&quot;
+                                }
+                            }
+                        },
+                        &quot;route&quot;: {
+                            &quot;text&quot;: &quot;subcutaneously&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;MedicationRequest&quot;,
+                &quot;id&quot;: &quot;59662..ME-20CCFE10-E146-4AC5-8327-237369C34288&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;active&quot;,
+                &quot;intent&quot;: &quot;order&quot;,
+                &quot;medicationCodeableConcept&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/ndc&quot;,
+                            &quot;code&quot;: &quot;68462016190&quot;,
+                            &quot;display&quot;: &quot;metformin&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-4F1A6E82-B9A3-4F91-82C9-6E83476F997A&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;authoredOn&quot;: &quot;2020-01-22T00:00:00+00:00&quot;,
+                &quot;requester&quot;: {
+                    &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                    &quot;type&quot;: &quot;Practitioner&quot;
+                },
+                &quot;dosageInstruction&quot;: [
+                    {
+                        &quot;timing&quot;: {
+                            &quot;repeat&quot;: {
+                                &quot;boundsPeriod&quot;: {
+                                    &quot;start&quot;: &quot;2020-01-01T00:00:00+00:00&quot;
+                                }
+                            }
+                        },
+                        &quot;route&quot;: {
+                            &quot;text&quot;: &quot;orally&quot;
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Transfer-Encoding: chunked</div>
+        <div>Server: nginx</div>
+        <div>X-Request-ID: H0QJg4BbRh57PFby</div>
+        <div>Connection: keep-alive</div>
+        <div>Content-Encoding: gzip</div>
+        <div>Vary: Access-Control-Request-Headers</div>
+        <div>Last-Modified: Wed, 25 Jan 2023 04:58:10 GMT</div>
+        <div>Date: Wed, 25 Jan 2023 04:58:10 GMT</div>
+        <div>Content-Type: application/fhir+json;charset=UTF-8</div>
+        <div>X-Powered-By: HAPI FHIR 4.2.0 REST Server (FHIR Server; FHIR 4.0.1/R4)</div>
+</div>
+
+

@@ -1,0 +1,112 @@
+<div>Status code 200 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;resourceType&quot;: &quot;Bundle&quot;,
+    &quot;id&quot;: &quot;6fb103bd-f877-4d89-bde7-318ae4e91b43&quot;,
+    &quot;meta&quot;: {
+        &quot;lastUpdated&quot;: &quot;2023-01-25T04:57:30.240+00:00&quot;
+    },
+    &quot;type&quot;: &quot;searchset&quot;,
+    &quot;total&quot;: 8,
+    &quot;link&quot;: [
+        {
+            &quot;relation&quot;: &quot;self&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Immunization?patient=cradmo6.59662&amp;_pageId=ba5fe0e0-9355-40ec-aeab-d50a4d122f7f&amp;_count=2&quot;
+        },
+        {
+            &quot;relation&quot;: &quot;next&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Immunization?patient=cradmo6.59662&amp;_pageId=5f8900c4-6ef3-478f-88af-2d40c6a4c3b5&amp;_count=2&quot;
+        }
+    ],
+    &quot;entry&quot;: [
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Immunization&quot;,
+                &quot;id&quot;: &quot;59662..IM-285502&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;completed&quot;,
+                &quot;vaccineCode&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/cvx&quot;,
+                            &quot;code&quot;: &quot;140&quot;
+                        }
+                    ]
+                },
+                &quot;patient&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;occurrenceDateTime&quot;: &quot;2017-11-20T00:00:00+00:00&quot;,
+                &quot;primarySource&quot;: true,
+                &quot;manufacturer&quot;: {
+                    &quot;reference&quot;: &quot;Organization/UNK&quot;,
+                    &quot;type&quot;: &quot;Organization&quot;
+                }
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Immunization&quot;,
+                &quot;id&quot;: &quot;59662..IM-2355092&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;completed&quot;,
+                &quot;vaccineCode&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/cvx&quot;,
+                            &quot;code&quot;: &quot;140&quot;
+                        }
+                    ]
+                },
+                &quot;patient&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-BB0AECBD-7123-42FA-9744-8B2DC0388849&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;occurrenceDateTime&quot;: &quot;2017-11-20T00:00:00+00:00&quot;,
+                &quot;primarySource&quot;: true,
+                &quot;site&quot;: {
+                    &quot;text&quot;: &quot;LD&quot;
+                },
+                &quot;route&quot;: {
+                    &quot;text&quot;: &quot;IM Intramuscular&quot;
+                }
+            }
+        }
+    ]
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Transfer-Encoding: chunked</div>
+        <div>Server: nginx</div>
+        <div>X-Request-ID: VhmlJznoX6G4gmHj</div>
+        <div>Connection: keep-alive</div>
+        <div>Content-Encoding: gzip</div>
+        <div>Vary: Access-Control-Request-Headers</div>
+        <div>Last-Modified: Wed, 25 Jan 2023 04:57:30 GMT</div>
+        <div>Date: Wed, 25 Jan 2023 04:57:30 GMT</div>
+        <div>Content-Type: application/fhir+json;charset=UTF-8</div>
+        <div>X-Powered-By: HAPI FHIR 4.2.0 REST Server (FHIR Server; FHIR 4.0.1/R4)</div>
+</div>
+
+

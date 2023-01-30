@@ -1,0 +1,479 @@
+<div>Status code 200 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;resourceType&quot;: &quot;Bundle&quot;,
+    &quot;id&quot;: &quot;baa83d8c-b896-4f5f-bc32-07f858b298ab&quot;,
+    &quot;meta&quot;: {
+        &quot;lastUpdated&quot;: &quot;2023-01-25T04:58:50.568+00:00&quot;
+    },
+    &quot;type&quot;: &quot;searchset&quot;,
+    &quot;total&quot;: 2240,
+    &quot;link&quot;: [
+        {
+            &quot;relation&quot;: &quot;self&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Observation?date=ge2016-09-30&amp;code=8462-4&amp;patient=cradmo6.59662&amp;_pageId=c72fcd47-1915-4497-b486-85ff75292584&amp;_count=5&quot;
+        },
+        {
+            &quot;relation&quot;: &quot;next&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Observation?date=ge2016-09-30&amp;code=8462-4&amp;patient=cradmo6.59662&amp;_pageId=e6400fc7-9989-4d53-b719-842d84edbe70&amp;_count=5&quot;
+        }
+    ],
+    &quot;entry&quot;: [
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..BP-B1DF5979-BE03-4B78-B037-64624C421392&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/StructureDefinition/vitalsigns&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;vital-signs&quot;,
+                                &quot;display&quot;: &quot;Vital Signs&quot;
+                            }
+                        ],
+                        &quot;text&quot;: &quot;Vital Signs&quot;
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;85354-9&quot;,
+                            &quot;display&quot;: &quot;Blood pressure panel with all children optional&quot;
+                        }
+                    ],
+                    &quot;text&quot;: &quot;Blood pressure systolic &amp; diastolic&quot;
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-13520583-960E-4518-9923-B4CAA9E05042&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2018-11-03T00:00:00+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-76AEB2F6-A5EB-409B-9DB5-46788D1EFFB2&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;bodySite&quot;: {
+                    &quot;text&quot;: &quot;sitting&quot;
+                },
+                &quot;component&quot;: [
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8480-6&quot;,
+                                    &quot;display&quot;: &quot;Systolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 132.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    },
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8462-4&quot;,
+                                    &quot;display&quot;: &quot;Diastolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 72.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..BP-B347EFB0-924B-492C-AE21-056FC4AC8A37&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/StructureDefinition/vitalsigns&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;vital-signs&quot;,
+                                &quot;display&quot;: &quot;Vital Signs&quot;
+                            }
+                        ],
+                        &quot;text&quot;: &quot;Vital Signs&quot;
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;85354-9&quot;,
+                            &quot;display&quot;: &quot;Blood pressure panel with all children optional&quot;
+                        }
+                    ],
+                    &quot;text&quot;: &quot;Blood pressure systolic &amp; diastolic&quot;
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-1B97153A-E4EA-4247-827B-0CECA5A5A20D&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2018-10-16T00:00:00+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-76AEB2F6-A5EB-409B-9DB5-46788D1EFFB2&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;bodySite&quot;: {
+                    &quot;text&quot;: &quot;sitting&quot;
+                },
+                &quot;component&quot;: [
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8480-6&quot;,
+                                    &quot;display&quot;: &quot;Systolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 138.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    },
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8462-4&quot;,
+                                    &quot;display&quot;: &quot;Diastolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 76.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..BP-CEC9C3C0-C11D-4986-9A41-FAD959AC6350&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/StructureDefinition/vitalsigns&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;vital-signs&quot;,
+                                &quot;display&quot;: &quot;Vital Signs&quot;
+                            }
+                        ],
+                        &quot;text&quot;: &quot;Vital Signs&quot;
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;85354-9&quot;,
+                            &quot;display&quot;: &quot;Blood pressure panel with all children optional&quot;
+                        }
+                    ],
+                    &quot;text&quot;: &quot;Blood pressure systolic &amp; diastolic&quot;
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-8A944B66-8E26-4BB4-863B-C58AE8E45932&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2021-09-01T00:00:00+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-E932F6B2-508E-44C7-8921-03C1E71629EA&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;bodySite&quot;: {
+                    &quot;text&quot;: &quot;sitting&quot;
+                },
+                &quot;component&quot;: [
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8480-6&quot;,
+                                    &quot;display&quot;: &quot;Systolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 124.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    },
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8462-4&quot;,
+                                    &quot;display&quot;: &quot;Diastolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 64.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..BP-2BA0460B-3A52-4D5A-83D9-26B34EB947C0&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/StructureDefinition/vitalsigns&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;vital-signs&quot;,
+                                &quot;display&quot;: &quot;Vital Signs&quot;
+                            }
+                        ],
+                        &quot;text&quot;: &quot;Vital Signs&quot;
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;85354-9&quot;,
+                            &quot;display&quot;: &quot;Blood pressure panel with all children optional&quot;
+                        }
+                    ],
+                    &quot;text&quot;: &quot;Blood pressure systolic &amp; diastolic&quot;
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-3DB02459-11CF-4747-8BB3-8E366D9DCEEE&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2021-03-12T00:00:00+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-E6A94BD4-3FD4-477B-9D44-95458308CEDB&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;bodySite&quot;: {
+                    &quot;text&quot;: &quot;sitting&quot;
+                },
+                &quot;component&quot;: [
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8480-6&quot;,
+                                    &quot;display&quot;: &quot;Systolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 125.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    },
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8462-4&quot;,
+                                    &quot;display&quot;: &quot;Diastolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 70.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..BP-AB187146-5AAC-439B-8392-A2A3C08499CD&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/StructureDefinition/vitalsigns&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;vital-signs&quot;,
+                                &quot;display&quot;: &quot;Vital Signs&quot;
+                            }
+                        ],
+                        &quot;text&quot;: &quot;Vital Signs&quot;
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;85354-9&quot;,
+                            &quot;display&quot;: &quot;Blood pressure panel with all children optional&quot;
+                        }
+                    ],
+                    &quot;text&quot;: &quot;Blood pressure systolic &amp; diastolic&quot;
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-CAF8F0A6-3042-46B2-AD44-9F9812BBBD8D&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2017-04-04T00:00:00+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;bodySite&quot;: {
+                    &quot;text&quot;: &quot;Repeat BP&quot;
+                },
+                &quot;component&quot;: [
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8480-6&quot;,
+                                    &quot;display&quot;: &quot;Systolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 128.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    },
+                    {
+                        &quot;code&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://loinc.org&quot;,
+                                    &quot;code&quot;: &quot;8462-4&quot;,
+                                    &quot;display&quot;: &quot;Diastolic blood pressure&quot;
+                                }
+                            ]
+                        },
+                        &quot;valueQuantity&quot;: {
+                            &quot;value&quot;: 78.0,
+                            &quot;unit&quot;: &quot;mmHg&quot;,
+                            &quot;system&quot;: &quot;http://unitsofmeasure.org&quot;
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Transfer-Encoding: chunked</div>
+        <div>Server: nginx</div>
+        <div>X-Request-ID: rcuoQWGw22FWh2Ue</div>
+        <div>Connection: keep-alive</div>
+        <div>Content-Encoding: gzip</div>
+        <div>Vary: Access-Control-Request-Headers</div>
+        <div>Last-Modified: Wed, 25 Jan 2023 04:58:50 GMT</div>
+        <div>Date: Wed, 25 Jan 2023 04:58:50 GMT</div>
+        <div>Content-Type: application/fhir+json;charset=UTF-8</div>
+        <div>X-Powered-By: HAPI FHIR 4.2.0 REST Server (FHIR Server; FHIR 4.0.1/R4)</div>
+</div>
+
+
