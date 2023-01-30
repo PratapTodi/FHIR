@@ -1,0 +1,294 @@
+<div>Status code 200 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;resourceType&quot;: &quot;Bundle&quot;,
+    &quot;id&quot;: &quot;3496e068-f688-42d5-b41d-693f716d6fb8&quot;,
+    &quot;meta&quot;: {
+        &quot;lastUpdated&quot;: &quot;2023-01-25T04:58:04.280+00:00&quot;
+    },
+    &quot;type&quot;: &quot;searchset&quot;,
+    &quot;total&quot;: 514,
+    &quot;link&quot;: [
+        {
+            &quot;relation&quot;: &quot;self&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/MedicationRequest?patient=cradmo6.59662&amp;encounter=Encounter%2F59662..EN-4F1A6E82-B9A3-4F91-82C9-6E83476F997A&amp;intent=order&amp;_pageId=58314b9a-8aa2-4484-8079-3932e3cffa9b&amp;_count=5&quot;
+        },
+        {
+            &quot;relation&quot;: &quot;next&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/MedicationRequest?patient=cradmo6.59662&amp;encounter=Encounter%2F59662..EN-4F1A6E82-B9A3-4F91-82C9-6E83476F997A&amp;intent=order&amp;_pageId=b9ad4398-b5f7-4cdf-b33c-c4ba63b26582&amp;_count=5&quot;
+        }
+    ],
+    &quot;entry&quot;: [
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;MedicationRequest&quot;,
+                &quot;id&quot;: &quot;59662..ME-20CCFE10-E146-4AC5-8327-237369C34288&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;active&quot;,
+                &quot;intent&quot;: &quot;order&quot;,
+                &quot;medicationCodeableConcept&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/ndc&quot;,
+                            &quot;code&quot;: &quot;68462016190&quot;,
+                            &quot;display&quot;: &quot;metformin&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-4F1A6E82-B9A3-4F91-82C9-6E83476F997A&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;authoredOn&quot;: &quot;2020-01-22T00:00:00+00:00&quot;,
+                &quot;requester&quot;: {
+                    &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                    &quot;type&quot;: &quot;Practitioner&quot;
+                },
+                &quot;dosageInstruction&quot;: [
+                    {
+                        &quot;timing&quot;: {
+                            &quot;repeat&quot;: {
+                                &quot;boundsPeriod&quot;: {
+                                    &quot;start&quot;: &quot;2020-01-01T00:00:00+00:00&quot;
+                                }
+                            }
+                        },
+                        &quot;route&quot;: {
+                            &quot;text&quot;: &quot;orally&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;MedicationRequest&quot;,
+                &quot;id&quot;: &quot;59662..ME-051FB657-2789-4CC2-8F8E-93E16EB92560&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;active&quot;,
+                &quot;intent&quot;: &quot;order&quot;,
+                &quot;medicationCodeableConcept&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/ndc&quot;,
+                            &quot;code&quot;: &quot;00904770480&quot;,
+                            &quot;display&quot;: &quot;Aspir-Low&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-4F1A6E82-B9A3-4F91-82C9-6E83476F997A&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;authoredOn&quot;: &quot;2020-01-22T00:00:00+00:00&quot;,
+                &quot;requester&quot;: {
+                    &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                    &quot;type&quot;: &quot;Practitioner&quot;
+                },
+                &quot;dosageInstruction&quot;: [
+                    {
+                        &quot;timing&quot;: {
+                            &quot;repeat&quot;: {
+                                &quot;boundsPeriod&quot;: {
+                                    &quot;start&quot;: &quot;2020-01-01T00:00:00+00:00&quot;
+                                }
+                            }
+                        },
+                        &quot;route&quot;: {
+                            &quot;text&quot;: &quot;orally&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;MedicationRequest&quot;,
+                &quot;id&quot;: &quot;59662..ME-43AFF821-CD89-48BD-ADE5-0866BD62EB45&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;active&quot;,
+                &quot;intent&quot;: &quot;order&quot;,
+                &quot;medicationCodeableConcept&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/ndc&quot;,
+                            &quot;code&quot;: &quot;68645026154&quot;,
+                            &quot;display&quot;: &quot;simvastatin&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-4F1A6E82-B9A3-4F91-82C9-6E83476F997A&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;authoredOn&quot;: &quot;2020-01-22T00:00:00+00:00&quot;,
+                &quot;requester&quot;: {
+                    &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                    &quot;type&quot;: &quot;Practitioner&quot;
+                },
+                &quot;dosageInstruction&quot;: [
+                    {
+                        &quot;timing&quot;: {
+                            &quot;repeat&quot;: {
+                                &quot;boundsPeriod&quot;: {
+                                    &quot;start&quot;: &quot;2020-01-01T00:00:00+00:00&quot;
+                                }
+                            }
+                        },
+                        &quot;route&quot;: {
+                            &quot;text&quot;: &quot;orally&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;MedicationRequest&quot;,
+                &quot;id&quot;: &quot;59662..ME-B2FB47BC-1850-4547-A9CE-5611613F06A8&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;active&quot;,
+                &quot;intent&quot;: &quot;order&quot;,
+                &quot;medicationCodeableConcept&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/ndc&quot;,
+                            &quot;code&quot;: &quot;00088222033&quot;,
+                            &quot;display&quot;: &quot;Lantus&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-4F1A6E82-B9A3-4F91-82C9-6E83476F997A&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;authoredOn&quot;: &quot;2020-01-22T00:00:00+00:00&quot;,
+                &quot;requester&quot;: {
+                    &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                    &quot;type&quot;: &quot;Practitioner&quot;
+                },
+                &quot;dosageInstruction&quot;: [
+                    {
+                        &quot;timing&quot;: {
+                            &quot;repeat&quot;: {
+                                &quot;boundsPeriod&quot;: {
+                                    &quot;start&quot;: &quot;2020-01-01T00:00:00+00:00&quot;
+                                }
+                            }
+                        },
+                        &quot;route&quot;: {
+                            &quot;text&quot;: &quot;subcutaneously&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;MedicationRequest&quot;,
+                &quot;id&quot;: &quot;59662..ME-AC609543-B423-4758-A73A-403D3FFFD292&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;active&quot;,
+                &quot;intent&quot;: &quot;order&quot;,
+                &quot;medicationCodeableConcept&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://hl7.org/fhir/sid/ndc&quot;,
+                            &quot;code&quot;: &quot;00169406013&quot;,
+                            &quot;display&quot;: &quot;Victoza&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;encounter&quot;: {
+                    &quot;reference&quot;: &quot;Encounter/59662..EN-4F1A6E82-B9A3-4F91-82C9-6E83476F997A&quot;,
+                    &quot;type&quot;: &quot;Encounter&quot;
+                },
+                &quot;authoredOn&quot;: &quot;2020-01-22T00:00:00+00:00&quot;,
+                &quot;requester&quot;: {
+                    &quot;reference&quot;: &quot;Practitioner/PV-05EB36AD-C86D-47CE-B2C1-F77537FA444B&quot;,
+                    &quot;type&quot;: &quot;Practitioner&quot;
+                },
+                &quot;dosageInstruction&quot;: [
+                    {
+                        &quot;timing&quot;: {
+                            &quot;repeat&quot;: {
+                                &quot;boundsPeriod&quot;: {
+                                    &quot;start&quot;: &quot;2020-01-01T00:00:00+00:00&quot;
+                                }
+                            }
+                        },
+                        &quot;route&quot;: {
+                            &quot;text&quot;: &quot;subcutaneously&quot;
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Transfer-Encoding: chunked</div>
+        <div>Server: nginx</div>
+        <div>X-Request-ID: VoUyVczyks6cjx9e</div>
+        <div>Connection: keep-alive</div>
+        <div>Content-Encoding: gzip</div>
+        <div>Vary: Access-Control-Request-Headers</div>
+        <div>Last-Modified: Wed, 25 Jan 2023 04:58:04 GMT</div>
+        <div>Date: Wed, 25 Jan 2023 04:58:04 GMT</div>
+        <div>Content-Type: application/fhir+json;charset=UTF-8</div>
+        <div>X-Powered-By: HAPI FHIR 4.2.0 REST Server (FHIR Server; FHIR 4.0.1/R4)</div>
+</div>
+
+

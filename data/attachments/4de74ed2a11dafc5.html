@@ -1,0 +1,170 @@
+<div>Status code 200 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;resourceType&quot;: &quot;Bundle&quot;,
+    &quot;id&quot;: &quot;d5ee78d2-fd9e-4bb9-9830-9877649c741c&quot;,
+    &quot;meta&quot;: {
+        &quot;lastUpdated&quot;: &quot;2023-01-25T04:59:05.731+00:00&quot;
+    },
+    &quot;type&quot;: &quot;searchset&quot;,
+    &quot;total&quot;: 2240,
+    &quot;link&quot;: [
+        {
+            &quot;relation&quot;: &quot;self&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Observation?patient=cradmo6.59662&amp;_pageId=f6102988-09af-41fe-8d27-ba57cf24aae0&amp;_count=2&quot;
+        },
+        {
+            &quot;relation&quot;: &quot;next&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Observation?patient=cradmo6.59662&amp;_pageId=7d1cb2ff-86cb-4343-afbb-7038de505c10&amp;_count=2&quot;
+        }
+    ],
+    &quot;entry&quot;: [
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..RE-7259A440-6E88-41BD-96E8-CC1E8DD34C3B&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;laboratory&quot;,
+                                &quot;display&quot;: &quot;Laboratory&quot;
+                            }
+                        ]
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;1920-8&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2022-07-14T00:00:00+00:00&quot;,
+                &quot;issued&quot;: &quot;2022-07-15T00:00:00.000+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-AF669825-35A6-4518-982B-9987E35D1F29&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;valueQuantity&quot;: {
+                    &quot;value&quot;: 18.0,
+                    &quot;unit&quot;: &quot;U/L&quot;
+                },
+                &quot;interpretation&quot;: [
+                    {
+                        &quot;text&quot;: &quot;Norma&quot;
+                    }
+                ],
+                &quot;note&quot;: [
+                    {
+                        &quot;text&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                    }
+                ],
+                &quot;referenceRange&quot;: [
+                    {
+                        &quot;text&quot;: &quot;10-3510-35&quot;
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Observation&quot;,
+                &quot;id&quot;: &quot;59662..RE-077E365F-CEA0-4CEC-B19A-9F06478DA681&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab&quot;
+                    ]
+                },
+                &quot;status&quot;: &quot;final&quot;,
+                &quot;category&quot;: [
+                    {
+                        &quot;coding&quot;: [
+                            {
+                                &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;,
+                                &quot;code&quot;: &quot;laboratory&quot;,
+                                &quot;display&quot;: &quot;Laboratory&quot;
+                            }
+                        ]
+                    }
+                ],
+                &quot;code&quot;: {
+                    &quot;coding&quot;: [
+                        {
+                            &quot;system&quot;: &quot;http://loinc.org&quot;,
+                            &quot;code&quot;: &quot;1751-7&quot;
+                        }
+                    ]
+                },
+                &quot;subject&quot;: {
+                    &quot;reference&quot;: &quot;Patient/cradmo6.59662&quot;,
+                    &quot;type&quot;: &quot;Patient&quot;
+                },
+                &quot;effectiveDateTime&quot;: &quot;2022-07-14T00:00:00+00:00&quot;,
+                &quot;issued&quot;: &quot;2022-07-15T00:00:00.000+00:00&quot;,
+                &quot;performer&quot;: [
+                    {
+                        &quot;reference&quot;: &quot;Practitioner/PV-AF669825-35A6-4518-982B-9987E35D1F29&quot;,
+                        &quot;type&quot;: &quot;Practitioner&quot;
+                    }
+                ],
+                &quot;valueQuantity&quot;: {
+                    &quot;value&quot;: 4.5,
+                    &quot;unit&quot;: &quot;g/dL&quot;
+                },
+                &quot;interpretation&quot;: [
+                    {
+                        &quot;text&quot;: &quot;Norma&quot;
+                    }
+                ],
+                &quot;note&quot;: [
+                    {
+                        &quot;text&quot;: &quot;&lt;PHI REDACTED&gt;&quot;
+                    }
+                ],
+                &quot;referenceRange&quot;: [
+                    {
+                        &quot;text&quot;: &quot;3.6-5.13.6-5.1&quot;
+                    }
+                ]
+            }
+        }
+    ]
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Transfer-Encoding: chunked</div>
+        <div>Server: nginx</div>
+        <div>X-Request-ID: hEUO8WmSX3Uucn6f</div>
+        <div>Connection: keep-alive</div>
+        <div>Content-Encoding: gzip</div>
+        <div>Vary: Access-Control-Request-Headers</div>
+        <div>Last-Modified: Wed, 25 Jan 2023 04:59:05 GMT</div>
+        <div>Date: Wed, 25 Jan 2023 04:59:05 GMT</div>
+        <div>Content-Type: application/fhir+json;charset=UTF-8</div>
+        <div>X-Powered-By: HAPI FHIR 4.2.0 REST Server (FHIR Server; FHIR 4.0.1/R4)</div>
+</div>
+
+

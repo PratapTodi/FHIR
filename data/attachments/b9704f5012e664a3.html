@@ -1,0 +1,932 @@
+<div>Status code 200 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;resourceType&quot;: &quot;Bundle&quot;,
+    &quot;id&quot;: &quot;ed8e41b0-f310-4433-9f4b-8875c89b096e&quot;,
+    &quot;meta&quot;: {
+        &quot;lastUpdated&quot;: &quot;2023-01-25T04:59:33.150+00:00&quot;
+    },
+    &quot;type&quot;: &quot;searchset&quot;,
+    &quot;total&quot;: 235570,
+    &quot;link&quot;: [
+        {
+            &quot;relation&quot;: &quot;self&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Patient&quot;
+        },
+        {
+            &quot;relation&quot;: &quot;next&quot;,
+            &quot;url&quot;: &quot;http://test-fhirapi.development.arcadiaanalytics.com/fhir/Patient?_pageNo=2&amp;_count=5&quot;
+        }
+    ],
+    &quot;entry&quot;: [
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Patient&quot;,
+                &quot;id&quot;: &quot;cradmo6.196280&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient&quot;
+                    ]
+                },
+                &quot;extension&quot;: [
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-race&quot;,
+                        &quot;extension&quot;: [
+                            {
+                                &quot;url&quot;: &quot;ombCategory&quot;,
+                                &quot;valueCoding&quot;: {
+                                    &quot;display&quot;: &quot;Needs Update&quot;
+                                }
+                            },
+                            {
+                                &quot;url&quot;: &quot;text&quot;,
+                                &quot;valueString&quot;: &quot;Needs Update&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity&quot;,
+                        &quot;extension&quot;: [
+                            {
+                                &quot;url&quot;: &quot;ombCategory&quot;,
+                                &quot;valueCoding&quot;: {
+                                    &quot;display&quot;: &quot;Needs Update&quot;
+                                }
+                            },
+                            {
+                                &quot;url&quot;: &quot;text&quot;,
+                                &quot;valueString&quot;: &quot;Needs Update&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex&quot;,
+                        &quot;valueCode&quot;: &quot;M&quot;
+                    }
+                ],
+                &quot;identifier&quot;: [
+                    {
+                        &quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.4.317&quot;,
+                        &quot;value&quot;: &quot;1021..2252251&quot;
+                    },
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;,
+                                    &quot;code&quot;: &quot;SS&quot;
+                                }
+                            ]
+                        },
+                        &quot;system&quot;: &quot;http://hl7.org/fhir/sid/us-ssn&quot;,
+                        &quot;value&quot;: &quot;809008188&quot;
+                    },
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;,
+                                    &quot;code&quot;: &quot;MB&quot;
+                                }
+                            ]
+                        },
+                        &quot;system&quot;: &quot;http://member.code.system&quot;,
+                        &quot;value&quot;: &quot;465061-91&quot;
+                    }
+                ],
+                &quot;name&quot;: [
+                    {
+                        &quot;family&quot;: &quot;Mendoza&quot;,
+                        &quot;given&quot;: [
+                            &quot;Chris&quot;
+                        ]
+                    }
+                ],
+                &quot;telecom&quot;: [
+                    {
+                        &quot;system&quot;: &quot;phone&quot;,
+                        &quot;value&quot;: &quot;320-555-0120&quot;,
+                        &quot;use&quot;: &quot;home&quot;
+                    },
+                    {
+                        &quot;system&quot;: &quot;phone&quot;,
+                        &quot;value&quot;: &quot;320-555-0120&quot;,
+                        &quot;use&quot;: &quot;mobile&quot;
+                    }
+                ],
+                &quot;gender&quot;: &quot;male&quot;,
+                &quot;birthDate&quot;: &quot;1946-01-02&quot;,
+                &quot;address&quot;: [
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1822 COLDEN AVENUE&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;10462&quot;
+                    }
+                ],
+                &quot;maritalStatus&quot;: {
+                    &quot;text&quot;: &quot;Needs Update&quot;
+                },
+                &quot;communication&quot;: [
+                    {
+                        &quot;language&quot;: {
+                            &quot;text&quot;: &quot;Needs Update&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Patient&quot;,
+                &quot;id&quot;: &quot;cradmo6.250261&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient&quot;
+                    ]
+                },
+                &quot;extension&quot;: [
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-race&quot;,
+                        &quot;extension&quot;: [
+                            {
+                                &quot;url&quot;: &quot;ombCategory&quot;,
+                                &quot;valueCoding&quot;: {
+                                    &quot;display&quot;: &quot;Needs Update&quot;
+                                }
+                            },
+                            {
+                                &quot;url&quot;: &quot;text&quot;,
+                                &quot;valueString&quot;: &quot;Needs Update&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity&quot;,
+                        &quot;extension&quot;: [
+                            {
+                                &quot;url&quot;: &quot;ombCategory&quot;,
+                                &quot;valueCoding&quot;: {
+                                    &quot;display&quot;: &quot;Needs Update&quot;
+                                }
+                            },
+                            {
+                                &quot;url&quot;: &quot;text&quot;,
+                                &quot;valueString&quot;: &quot;Needs Update&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex&quot;,
+                        &quot;valueCode&quot;: &quot;F&quot;
+                    }
+                ],
+                &quot;identifier&quot;: [
+                    {
+                        &quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.4.317&quot;,
+                        &quot;value&quot;: &quot;1025..3172086&quot;
+                    },
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;,
+                                    &quot;code&quot;: &quot;SS&quot;
+                                }
+                            ]
+                        },
+                        &quot;system&quot;: &quot;http://hl7.org/fhir/sid/us-ssn&quot;,
+                        &quot;value&quot;: &quot;364003420&quot;
+                    },
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;,
+                                    &quot;code&quot;: &quot;MB&quot;
+                                }
+                            ]
+                        },
+                        &quot;system&quot;: &quot;http://member.code.system&quot;,
+                        &quot;value&quot;: &quot;470704-97&quot;
+                    }
+                ],
+                &quot;name&quot;: [
+                    {
+                        &quot;family&quot;: &quot;Orozco&quot;,
+                        &quot;given&quot;: [
+                            &quot;Marjorie&quot;
+                        ]
+                    }
+                ],
+                &quot;telecom&quot;: [
+                    {
+                        &quot;system&quot;: &quot;phone&quot;,
+                        &quot;value&quot;: &quot;596-555-0168&quot;,
+                        &quot;use&quot;: &quot;home&quot;
+                    },
+                    {
+                        &quot;system&quot;: &quot;phone&quot;,
+                        &quot;value&quot;: &quot;596-555-0168&quot;,
+                        &quot;use&quot;: &quot;mobile&quot;
+                    }
+                ],
+                &quot;gender&quot;: &quot;female&quot;,
+                &quot;birthDate&quot;: &quot;1942-01-03&quot;,
+                &quot;address&quot;: [
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    },
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1867 GROVE STREET&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11385&quot;
+                    }
+                ],
+                &quot;maritalStatus&quot;: {
+                    &quot;text&quot;: &quot;Needs Update&quot;
+                },
+                &quot;communication&quot;: [
+                    {
+                        &quot;language&quot;: {
+                            &quot;text&quot;: &quot;Needs Update&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Patient&quot;,
+                &quot;id&quot;: &quot;cradmo6.233666&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient&quot;
+                    ]
+                },
+                &quot;extension&quot;: [
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-race&quot;,
+                        &quot;extension&quot;: [
+                            {
+                                &quot;url&quot;: &quot;ombCategory&quot;,
+                                &quot;valueCoding&quot;: {
+                                    &quot;display&quot;: &quot;Needs Update&quot;
+                                }
+                            },
+                            {
+                                &quot;url&quot;: &quot;text&quot;,
+                                &quot;valueString&quot;: &quot;Needs Update&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity&quot;,
+                        &quot;extension&quot;: [
+                            {
+                                &quot;url&quot;: &quot;ombCategory&quot;,
+                                &quot;valueCoding&quot;: {
+                                    &quot;display&quot;: &quot;Needs Update&quot;
+                                }
+                            },
+                            {
+                                &quot;url&quot;: &quot;text&quot;,
+                                &quot;valueString&quot;: &quot;Needs Update&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex&quot;,
+                        &quot;valueCode&quot;: &quot;M&quot;
+                    }
+                ],
+                &quot;identifier&quot;: [
+                    {
+                        &quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.4.317&quot;,
+                        &quot;value&quot;: &quot;1021..2125968&quot;
+                    },
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;,
+                                    &quot;code&quot;: &quot;SS&quot;
+                                }
+                            ]
+                        },
+                        &quot;system&quot;: &quot;http://hl7.org/fhir/sid/us-ssn&quot;,
+                        &quot;value&quot;: &quot;131008427&quot;
+                    },
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;,
+                                    &quot;code&quot;: &quot;MB&quot;
+                                }
+                            ]
+                        },
+                        &quot;system&quot;: &quot;http://member.code.system&quot;,
+                        &quot;value&quot;: &quot;295217-94&quot;
+                    }
+                ],
+                &quot;name&quot;: [
+                    {
+                        &quot;family&quot;: &quot;Brooks&quot;,
+                        &quot;given&quot;: [
+                            &quot;Seth&quot;
+                        ]
+                    }
+                ],
+                &quot;telecom&quot;: [
+                    {
+                        &quot;system&quot;: &quot;phone&quot;,
+                        &quot;value&quot;: &quot;571-555-0140&quot;,
+                        &quot;use&quot;: &quot;home&quot;
+                    },
+                    {
+                        &quot;system&quot;: &quot;phone&quot;,
+                        &quot;value&quot;: &quot;571-555-0140&quot;,
+                        &quot;use&quot;: &quot;mobile&quot;
+                    }
+                ],
+                &quot;gender&quot;: &quot;male&quot;,
+                &quot;birthDate&quot;: &quot;1946-10-20&quot;,
+                &quot;address&quot;: [
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;48 DELWIT AVENUE&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;10306&quot;
+                    }
+                ],
+                &quot;maritalStatus&quot;: {
+                    &quot;text&quot;: &quot;Needs Update&quot;
+                },
+                &quot;communication&quot;: [
+                    {
+                        &quot;language&quot;: {
+                            &quot;text&quot;: &quot;Needs Update&quot;
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            &quot;resource&quot;: {
+                &quot;resourceType&quot;: &quot;Patient&quot;,
+                &quot;id&quot;: &quot;cradmo6.255109&quot;,
+                &quot;meta&quot;: {
+                    &quot;lastUpdated&quot;: &quot;2021-06-25T08:04:11.000+00:00&quot;,
+                    &quot;profile&quot;: [
+                        &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient&quot;
+                    ]
+                },
+                &quot;extension&quot;: [
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-race&quot;,
+                        &quot;extension&quot;: [
+                            {
+                                &quot;url&quot;: &quot;ombCategory&quot;,
+                                &quot;valueCoding&quot;: {
+                                    &quot;display&quot;: &quot;Needs Update&quot;
+                                }
+                            },
+                            {
+                                &quot;url&quot;: &quot;text&quot;,
+                                &quot;valueString&quot;: &quot;Needs Update&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity&quot;,
+                        &quot;extension&quot;: [
+                            {
+                                &quot;url&quot;: &quot;ombCategory&quot;,
+                                &quot;valueCoding&quot;: {
+                                    &quot;display&quot;: &quot;Needs Update&quot;
+                                }
+                            },
+                            {
+                                &quot;url&quot;: &quot;text&quot;,
+                                &quot;valueString&quot;: &quot;Needs Update&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;url&quot;: &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex&quot;,
+                        &quot;valueCode&quot;: &quot;F&quot;
+                    }
+                ],
+                &quot;identifier&quot;: [
+                    {
+                        &quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.4.317&quot;,
+                        &quot;value&quot;: &quot;1021..2258125&quot;
+                    },
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;,
+                                    &quot;code&quot;: &quot;SS&quot;
+                                }
+                            ]
+                        },
+                        &quot;system&quot;: &quot;http://hl7.org/fhir/sid/us-ssn&quot;,
+                        &quot;value&quot;: &quot;683004288&quot;
+                    },
+                    {
+                        &quot;type&quot;: {
+                            &quot;coding&quot;: [
+                                {
+                                    &quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;,
+                                    &quot;code&quot;: &quot;MB&quot;
+                                }
+                            ]
+                        },
+                        &quot;system&quot;: &quot;http://member.code.system&quot;,
+                        &quot;value&quot;: &quot;317845-01&quot;
+                    }
+                ],
+                &quot;name&quot;: [
+                    {
+                        &quot;family&quot;: &quot;Garcia&quot;,
+                        &quot;given&quot;: [
+                            &quot;Margarita&quot;
+                        ]
+                    }
+                ],
+                &quot;telecom&quot;: [
+                    {
+                        &quot;system&quot;: &quot;phone&quot;,
+                        &quot;value&quot;: &quot;951-555-0188&quot;,
+                        &quot;use&quot;: &quot;home&quot;
+                    },
+                    {
+                        &quot;system&quot;: &quot;phone&quot;,
+                        &quot;value&quot;: &quot;951-555-0188&quot;,
+                        &quot;use&quot;: &quot;mobile&quot;
+                    }
+                ],
+                &quot;gender&quot;: &quot;female&quot;,
+                &quot;birthDate&quot;: &quot;1952-07-30&quot;,
+                &quot;address&quot;: [
+                    {
+                        &quot;type&quot;: &quot;postal&quot;,
+                        &quot;line&quot;: [
+                            &quot;1926 19 LANE&quot;
+                        ],
+                        &quot;city&quot;: &quot;New York&quot;,
+                        &quot;district&quot;: &quot;Needs Update&quot;,
+                        &quot;state&quot;: &quot;NY&quot;,
+                        &quot;postalCode&quot;: &quot;11214&quot;
+                    }
+                ],
+                &quot;maritalStatus&quot;: {
+                    &quot;text&quot;: &quot;Needs Update&quot;
+                },
+                &quot;communication&quot;: [
+                    {
+                        &quot;language&quot;: {
+                            &quot;text&quot;: &quot;Needs Update&quot;
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Transfer-Encoding: chunked</div>
+        <div>Server: nginx</div>
+        <div>X-Request-ID: 8ZyZ9KvKnFWQ4knP</div>
+        <div>Connection: keep-alive</div>
+        <div>Content-Encoding: gzip</div>
+        <div>Vary: Access-Control-Request-Headers</div>
+        <div>Last-Modified: Wed, 25 Jan 2023 04:59:33 GMT</div>
+        <div>Date: Wed, 25 Jan 2023 04:59:33 GMT</div>
+        <div>Content-Type: application/fhir+json;charset=UTF-8</div>
+        <div>X-Powered-By: HAPI FHIR 4.2.0 REST Server (FHIR Server; FHIR 4.0.1/R4)</div>
+</div>
+
+
